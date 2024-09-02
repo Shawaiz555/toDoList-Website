@@ -43,7 +43,7 @@ document.getElementById('Loginbtn').addEventListener('click', function () {
         localStorage.setItem('LoggedInUser', user.fullName);
         alert('Login successful!');
         // Redirect to index.html after successful login
-        window.location.href = '/Pages/Main.html';
+        window.location.href = './Pages/Main.html';
     } else {
         emailInput.value = '';
         passwordInput.value = '';
